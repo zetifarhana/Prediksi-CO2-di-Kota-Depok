@@ -18,7 +18,7 @@ def show_deskripsi():
     st.write("Selamat datang di aplikasi prediksi kegagalan mesin berbasis web.")
     st.write("<div style='text-align: justify;'>Aplikasi ini menggunakan teknologi <i>Machine Learning</i> untuk memberikan prediksi yang akurat terkait kualitas udara di Depok. Dengan memasukkan data terkait emisi CO2 dan faktor lingkungan lainnya, pengguna dapat memprediksi kondisi kualitas udara di masa depan. Model <i>Machine Learning</i> yang digunakan dalam aplikasi ini telah dilatih dengan data historis yang luas dan akurat, memungkinkan sistem memberikan informasi yang berguna dan handal. Aplikasi ini bertujuan untuk membantu masyarakat dan pengambil kebijakan dalam mengidentifikasi potensi polusi udara, serta mengambil tindakan pencegahan yang lebih efektif. Dengan tampilan yang sederhana dan responsif, aplikasi ini dapat membantu dalam upaya peningkatan kualitas lingkungan hidup di kawasan urban.</div>", unsafe_allow_html=True)
     st.write("Sumber data: https://github.com/adyanamul/dataset/raw/main/CO2_dataset.xlsx")
-    st.write("Dibuat oleh Zeti Farhana Putri - 2024")
+
 # Fungsi untuk halaman Dataset
 def show_dataset():
     st.header("Dataset")
